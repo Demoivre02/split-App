@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script src="https://kit.fontawesome.com/9090fa34d8.js" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="tip.css">
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    
+                <h2>SPLI <br> TTER</h2>
+      <div class="envelope">
+        <div class="firstchild">
+
+          <label for="bill">Bill</label><br>
+          <input type="number" class="one" name="bill"  placeholder="$"><input onchange="handleInput()" type="number" class="two" name="bill" id="bill" placeholder="0">
+
+    
+          <p>Select Tip%</p>
+          <div class="grid">
+              <button onclick="fivepercent()" class="five" > 5%</button>
+              <button onclick="tenpercent()" class="ten">10%</button> 
+              <button onclick="fifteenpercent()" class="fifteen" class="light"> 15%</button>
+              <button onclick="twentyfivepercent()" class="twenty-five">25%</button>
+              <button onclick="fiftypercent()" class="fifty">50%</button>
+              <button onclick="toogleTheme()" class="custom">Custom</button>
+          </div>
+            <div class="greenDiv">
+            <label for="noOfpeople">Number of People</label><br>
+            <input type="Text" " class="one "  placeholder="&#xf007"><input type="number" class="two second" name="number" id="number" placeholder="0">
+        </div>
+        </div>
+        
+        <div class="container-fluid">
+          <div class="row">
+            <p> Tip Amount <br>
+              / person</p>
+              <h1 class="tip">$0.00</h1>
+            </div>
+            <div class="row">
+            <p>Total <br>
+            / person</p>
+            <h1 class="total">$0.00</h1>
+            </div>
+            <input class="lite" onclick="Reload()" type="reset"> 
+          </div>
+      </div>
+  </div>
+
+ 
+  <script src="tip.js"></script>
+</body>
+</html>
+
+
+<!-- <div class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  Coded by <a href="#">Your Name Here</a>.
+</div> -->
