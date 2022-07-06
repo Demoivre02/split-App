@@ -11,6 +11,8 @@
     background-color:hsl(185, 41%, 84%) ;
 }
 body{
+    padding:0;
+    margin:0;
     font-weight: 700;
     font-family: 'Space Mono', monospace;
 }
