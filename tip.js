@@ -23,9 +23,9 @@ function fivepercent(){
         alert("Please input the number of people before selecting Tip")
     }else{
        
-        tip.innerHTML= (((5/100)*n)/p)
-        let ToatlAmount= (+((5/100)*n) + +x)
-        total.innerHTML= ToatlAmount/p
+        tip.innerHTML= Math.round( (((5/100)*n)/p))
+        let ToatlAmount= Math.round( (+((5/100)*n) + +x))
+        total.innerHTML=Math.round( ToatlAmount/p)
     }
 }
 
@@ -38,9 +38,9 @@ function tenpercent(){
         alert("Please input the number of people before selecting Tip")
     }else{
        
-        tip.innerHTML= (((10/100)*n)/p)
-        let ToatlAmount= (+((10/100)*n) + +x)
-        total.innerHTML= ToatlAmount/p
+        tip.innerHTML= Math.round( (((10/100)*n)/p))
+        let ToatlAmount=Math.round( (+((10/100)*n) + +x))
+        total.innerHTML= Math.round( ToatlAmount/p)
     }
 }
 function fifteenpercent(){
@@ -51,9 +51,9 @@ function fifteenpercent(){
         alert("Please input the number of people before selecting Tip")
     }else{
        
-        tip.innerHTML= (((15/100)*n)/p)
-        let ToatlAmount= (+((15/100)*n) + +x)
-        total.innerHTML= ToatlAmount/p
+        tip.innerHTML= Math.round( (((15/100)*n)/p))
+        let ToatlAmount=Math.round( (+((15/100)*n) + +x))
+        total.innerHTML=Math.round( ToatlAmount/p)
     }
    
 }
@@ -65,9 +65,9 @@ function twentyfivepercent(){
         alert("Please input the number of people before selecting Tip")
     }else{
        
-        tip.innerHTML= (((25/100)*n)/p)
-        let ToatlAmount= (+((25/100)*n) + +x)
-        total.innerHTML= ToatlAmount/p
+        tip.innerHTML=Math.round( (((25/100)*n)/p))
+        let ToatlAmount=Math.round( (+((25/100)*n) + +x))
+        total.innerHTML=Math.round( ToatlAmount/p)
     }
 }
 function fiftypercent(){
@@ -78,9 +78,9 @@ function fiftypercent(){
         alert("Please input the number of people before selecting Tip")
     }else{
        
-        tip.innerHTML= (((50/100)*n)/p)
-        let ToatlAmount= (+((50/100)*n) + +x)
-        total.innerHTML= ToatlAmount/p``
+        tip.innerHTML=Math.round( (((50/100)*n)/p))
+        let ToatlAmount=Math.round( (+((50/100)*n) + +x))
+        total.innerHTML=Math.round( ToatlAmount/p)
     }
 }
 
